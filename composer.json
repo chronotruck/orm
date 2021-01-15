@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/orm",
+    "name": "chronotruck/orm",
     "type": "library",
     "description": "Object-Relational-Mapper for PHP",
     "keywords": ["orm", "database"],
@@ -12,6 +12,9 @@
         {"name": "Jonathan Wage", "email": "jonwage@gmail.com"}
     ],
     "minimum-stability": "dev",
+    "replace": {
+        "doctrine/orm": "2.5.16"
+    },
     "require": {
         "php": ">=5.4",
         "ext-pdo": "*",
